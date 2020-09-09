@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                echo 'it works'
+                echo 'webhook test'
             }
         }
     }
